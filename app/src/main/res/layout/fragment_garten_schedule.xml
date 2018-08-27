@@ -1,0 +1,264 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.supming.test.fragment_main.Info_Main">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/omarstyleborder"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:id="@+id/monday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/makemeproud_blue"
+                android:gravity="center"
+                android:text="Monday "
+                android:textColor="#b4000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/mondayedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+
+                android:text=""
+                android:textColor="#47525E"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/omarstyleborder"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/makemeproud_blue"
+                android:gravity="center"
+                android:text="Tuesday "
+                android:textColor="#b4000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tuesdayedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+
+                android:text=""
+                android:textColor="#47525E"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/omarstyleborder"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/makemeproud_blue"
+                android:gravity="center"
+                android:text="Wednesday "
+                android:textColor="#b4000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wednesdayedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+
+                android:text=""
+                android:textColor="#47525E"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/omarstyleborder"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:id="@+id/thursday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/makemeproud_blue"
+                android:gravity="center"
+                android:text="Thursay "
+                android:textColor="#b4000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/thursdayedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+
+                android:text=""
+                android:textColor="#47525E"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/omarstyleborder"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:id="@+id/friday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/makemeproud_blue"
+                android:gravity="center"
+                android:text="Friday "
+                android:textColor="#b4000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fridayedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="5dp"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+
+                android:text=""
+                android:textColor="#47525E"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/omarstyleborder"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:id="@+id/saturday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/makemeproud_blue"
+                android:gravity="center"
+                android:text="Saturday "
+                android:textColor="#b4000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/saturdayedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:lineSpacingExtra="5dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+
+            android:text=""
+            android:textColor="#47525E"
+            android:textSize="15sp" />
+        </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

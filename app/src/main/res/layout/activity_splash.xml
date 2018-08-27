@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.supming.test.Splash">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:progressDrawable="@drawable/bar_custom" />
+
+    <TextView
+        android:id="@+id/pourcentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:textSize="25dp"
+        android:textColor="#010003"
+        android:textStyle="bold|italic"
+         />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pourcentage"
+        android:layout_alignEnd="@+id/progressBar"
+        android:layout_alignRight="@+id/progressBar"
+        android:layout_marginBottom="157dp"
+        android:text="Welcome....."
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

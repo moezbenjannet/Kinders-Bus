@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mediaconatiner"
+    android:orientation="vertical"
+    tools:context="com.supming.test.fragment_main.Info_Main">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/omarstyleborder"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="bich plz ">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:weightSum="11"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:layout_weight="5"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+
+                android:background="#c4c8c9" />
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Photos"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentRight="true"
+
+                android:background="#c4c8c9" />
+
+
+
+        </LinearLayout>
+        <!--  <android.support.v4.view.ViewPager
+             android:id="@+id/mediaviewpager"
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             android:padding="5dp"
+             android:layout_gravity="center_horizontal"></android.support.v4.view.ViewPager>
+             <View
+
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="#000"
+                 android:layout_margin="5dp"/>-->
+
+         <GridView
+             android:layout_below="@+id/ll"
+            android:id="@+id/gridview_media"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:paddingBottom="10dp"
+             android:paddingTop="10dp"
+             android:horizontalSpacing="5dp"
+             android:verticalSpacing="5dp"
+             android:layout_marginStart="5dp"
+             android:layout_marginLeft="5dp"
+             android:numColumns="3"
+             android:stretchMode="spacingWidthUniform"
+             android:gravity="center"
+             android:columnWidth="90dp"></GridView>
+
+    </RelativeLayout>
+
+     </RelativeLayout>

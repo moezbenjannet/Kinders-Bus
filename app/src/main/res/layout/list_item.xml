@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@drawable/omarstyleborder"
+    android:minHeight="@dimen/list_item_height"
+    >
+
+    <ImageView
+        android:id="@+id/logo_garten"
+        android:layout_margin="3dp"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/logo_garten"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/Garten_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#3F00FF"
+            android:textStyle="bold"
+             />
+
+        <TextView
+            android:id="@+id/city_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Garten_name_text_view"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#47525E"
+            />
+
+        <TextView
+            android:id="@+id/contact_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/city_text_view"
+            android:layout_marginTop="3dp"
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#47525E"
+            />
+
+        <ImageView
+            android:id="@+id/favorite"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_favorite_border_black"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginBottom="13dp"
+            />
+
+
+    </RelativeLayout>
+</RelativeLayout>

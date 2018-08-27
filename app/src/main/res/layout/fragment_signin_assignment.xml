@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.supming.test.fragment_signin.Assignment_Signin">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listassignment"
+        android:orientation="vertical"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_below="@+id/toolbarSignin"
+        />
+
+</FrameLayout>

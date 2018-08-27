@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_item_height"
+    >
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      android:paddingBottom="10dp"
+    android:background="@drawable/makeomarproudmain"
+    android:orientation="vertical">
+
+     <TextView
+        android:id="@+id/assignment_classe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/makeomarproud"
+        android:layout_marginTop="2dp"
+         android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="  Classe A  "
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="5dp"
+          android:paddingStart="5dp"
+          android:layout_marginBottom="20dp"
+          android:orientation="horizontal">
+          <TextView
+              android:layout_width="110dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:text="Teacher : "
+              android:layout_marginLeft="5dp"
+              android:textColor="#000"
+              android:textSize="20sp" />
+
+          <ImageView
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_gravity="center_vertical"
+              android:src="@drawable/ic_perm_identity_black_24dp" />
+          <TextView
+              android:id="@+id/teacher_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:lineSpacingExtra="5dp"
+              android:text="  moez ben jannet "
+              android:textColor="#47525E"
+              android:textSize="20sp" />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="5dp"
+          android:paddingStart="5dp"
+          android:layout_marginBottom="20dp"
+          android:orientation="horizontal">
+
+          <ImageView
+              android:layout_marginLeft="115dp"
+              android:layout_marginStart="115dp"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_gravity="center_vertical"
+              android:src="@drawable/ic_phone_black_24dp" />
+          <TextView
+              android:id="@+id/teacher_num"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:lineSpacingExtra="5dp"
+              android:text="  55 568 461 "
+              android:textColor="#47525E"
+              android:textSize="20sp" />
+      </LinearLayout>
+      <TextView
+          android:layout_width="110dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:text="Children : "
+          android:layout_marginLeft="10dp"
+          android:layout_marginStart="10dp"
+          android:textColor="#000"
+          android:textSize="20sp" />
+      <TextView
+              android:id="@+id/children_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="115dp"
+              android:layout_marginLeft="115dp"
+              android:layout_gravity="center_vertical"
+              android:lineSpacingExtra="5dp"
+              android:text="  Houcin Gouadria "
+              android:textColor="#47525E"
+              android:textSize="20sp"
+              android:inputType="textMultiLine"/>
+
+  </LinearLayout>
+
+</RelativeLayout>
